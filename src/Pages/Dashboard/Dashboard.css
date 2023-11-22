@@ -1,0 +1,148 @@
+.dashBoard{
+    width: 100%;
+   }
+   .Headline{
+    margin: 0;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(0,0,0,.8);
+   }
+   .plan_duration{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   }
+   .duration_container{
+    height:20px;
+     padding:8px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 1rem;
+     border-radius: 25px;
+     border: 1px solid rgb(89, 87, 87);
+   }
+   .duration{
+    height: 100%;
+    padding:4px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-size:.8rem;
+    font-weight: 500;
+   }
+   sup{
+    font-size: .5rem;
+    color: green;
+   }
+   .Card_container{
+    margin: 0;
+    width: 100%;
+    padding-top: 10px;
+    
+   }
+   .type-container{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+   .type_card{
+    width:45%;
+    height: 150px;
+    padding:5px;
+    display: flex;
+    align-items: flex-start;
+    gap:3px;
+    background-color: #ffff;
+    border-radius: 12px;
+    box-shadow: 8px 8px 10px -1px rgba(0, 0, 0, 0.15),
+    -8px -8px 10px -1px rgba(255, 255, 255, 0.7),
+    -8px -8px 10px -1px rgba(0, 0, 0, 0.15),
+    8px 8px 10px -1px rgba(255, 255, 255, 0.7);
+   }
+   .card_sec{
+    pad: 5px;
+    margin: 0;
+    gap:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+   }
+   .cost-tag{
+    margin:0;
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-size: .7rem;
+    font-weight: bold;
+    color: rgba(0,0,0,.8);
+    text-align: center;
+   }
+   .free_des{
+    max-width:50ch;
+    margin: 0;
+    font-size: .6rem;
+    font-weight: bold;
+    color: rgba(0,0,0,.7);
+   }
+   .free_btn{
+    background-color: #c6ff8e;
+   }
+   .enterprise_btn{
+    background-color: #8ab9ff;
+   }
+   .infoemation{
+    width: 100%;
+    padding:10px;
+    text-align: end;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #8ab9ff;
+   }
+   @media only screen and (max-width: 868px){
+    .plan_duration{
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .type-container{
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+    .type_card{
+      width:480px;
+      height: 150px;
+      padding:10px;
+    }
+    .right_card>ul>li{
+      max-width:50ch;
+    }
+    .infoemation{
+      width: 100%;
+      padding:5px;
+      text-align: center;
+      font-size: .5rem;
+      font-weight: bold;
+      color: #8ab9ff;
+     }
+   }
+   @media only screen and (max-width: 668px){
+  
+    .type_card{
+      width:280px;
+      height: 200px;
+      padding:5px;
+    }
+ 
+   }

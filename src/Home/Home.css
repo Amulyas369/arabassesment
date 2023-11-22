@@ -1,0 +1,105 @@
+.home{
+    display: flex;
+    position:relative;
+    /* top:100px; */
+    /* z-index:1; */
+    width:100%;
+    background-color: #e3f1fe;
+    gap: 1rem;
+  
+  }
+  .hero_left{
+    position: relative;
+    display: flex;
+    width:95%;
+    background-color: #ffffff;
+    /* height: 100%; */
+    box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.15),
+    -2px -2px 5px -1px rgba(255, 255, 255, 0.7);
+  }
+ .hero{
+  padding: 30px 30px 0px 30px;
+  width: 100%;
+
+ }
+ .hero_right{
+  width:5%;
+  background-color: #8ab9ff; 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+ }
+ .notificat{
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .blank{
+  background-color: #e3f1fe;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap:1rem;
+  position: absolute;
+  bottom:0px;
+ }
+ .white_space{
+  width: 40px;
+  padding: 10px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: #ffff;
+  box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.15),
+    -2px -2px 5px -1px rgba(255, 255, 255, 0.7);
+ }
+.add{
+  width: 30px;
+  width: 30px;
+  padding: 5px;
+  font-size:2rem;
+  font-weight: bold;
+  background-color: #a6bede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: url("https://img.freepik.com/free-vector/color-flow-background_52683-43961.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
+
+@media only screen and (max-width: 868px){
+  .hero_left{
+    flex-direction: column;
+    width:100%;
+  }
+  .home{
+    flex-direction: column;
+  }
+  .notificat{
+    position: absolute;
+    right:10px;
+    z-index: 1;
+    top:10px;
+  }
+  .white_space{
+    display: none;
+  }
+  .add{
+    position: relative;
+    left:10px;
+    top: -10px;
+  }
+}
